@@ -1,0 +1,40 @@
+body{
+
+background-color: rgb(135, 238, 17);
+
+
+}
+p {
+
+background-color: red;
+font-color: blue;
+text-align: center;
+font-size: 50px;
+font-style: italic;
+}
+
+body
+{
+    color: blue;
+    font-style: italic;
+
+}
+
+h1{
+color: #000000;
+text-shadow: #000000;
+font-size: x-large;
+font-style: oblique;
+
+}
+button
+{
+    background-color: #af2c2c;
+    border-radius: 12px;
+    width: 50px;
+    border-style: dashed;
+
+
+
+
+}
