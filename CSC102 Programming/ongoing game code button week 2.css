@@ -1,6 +1,6 @@
 body{
 
-background-color: lime;
+background-color: rgb(255, 255, 255);
 
 }
 
@@ -25,21 +25,15 @@ text-shadow: #000000;
 font-size: x-large;
 font-style: oblique;
 
-}
-button
-{
-    background-color: #af2c2c;
-    border-radius: 25px;
-    width: 50px;
-    border-style: dashed;
+
 
 }
 
 .coin{
 width: 200px;
 min-height: 200px;
-background-color: silver;
-border: #000000;
+background-color: rgb(99, 0, 156);
+border: 1px solid #000000;
 border-radius: 100px;
 display: flex;
 align-items: center;
