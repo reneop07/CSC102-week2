@@ -1,0 +1,47 @@
+body{
+
+background-color: rgb(255, 255, 255);
+
+}
+
+p {
+
+background-color: #ffffff;
+text-align: center;
+font-size: 50px;
+font-style: italic;
+}
+
+body
+{
+    font: blue;
+    font-style: italic;
+
+}
+
+h1{
+color: #000000;
+text-shadow: #000000;
+font-size: x-large;
+font-style: oblique;
+
+
+
+}
+
+.coin{
+width: 200px;
+min-height: 200px;
+background-color: rgb(99, 0, 156);
+border: 1px solid #000000;
+border-radius: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+font-size: 32px;
+
+
+
+
+}
