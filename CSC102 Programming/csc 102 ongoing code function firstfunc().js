@@ -47,9 +47,10 @@ function validate()
 
 }
     
-function string()
+function string(event)
 {
-    var string1 = document.getElementById (firstInput).value;
+    console.log (" begin string function")
+    var string1 = document.getElementById ("firstinput").value;
 
     var splitstr = string1.split ("");
 
