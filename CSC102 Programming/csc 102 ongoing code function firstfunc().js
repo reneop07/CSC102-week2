@@ -1,6 +1,6 @@
 function firstfunc()
 {
-    alert ("you have created your first function! yea baby!");
+    alert: ("you have created your first function! yea baby!");
     // this is a comment for java just inputted the functions for firstfunc()
 
 
@@ -19,27 +19,56 @@ function flipcoin()
     else 
         {
         document.getElementById("coin").innerHTML="Tails";
+        }
 }
-   
 function validate()
 { 
-var name = document.getElementById("initstring").value;
-var lname = document.getElementById("firstNum").value;
-var zipcod = document.getElementById("Zipcode").value;
+    var name = document.getElementById("initstring").value;
+    var lname = document.getElementById("Lastname").value;
+    var Zipcode = document.getElementById("Zipcode").value;
 
 
-var fullname= name+lname;
-document.getElementById ("inputStatus").innerHTML =fullname;
+    var fullname=name+ " "+lname;
+    document.getElementById ("inputStatus").innerHTML =fullname;
+
+
+    if (fullname.length<=2)
+    {
+            document.getElementById("inputStatus").innerHTML ="Name not long enough";
+
+    }
+
+    if (( Zipcode<10000)||(Zipcode >=100000)){
+
+        document.getElementById("inputStatus").innerHTML ="Zipcode not Valid";
+
+
+    }
 
 }
-if (fullname.lenght <=2)
+    
+function string()
 {
-    document.getElementById("inputStatus").innerHTML ="Name not long enough";
+    var string1 = document.getElementById (firstInput).value;
+
+    var splitstr = string1.split ("");
+
+    var reversestr = splitstr.reverse();
+
+    var joinstr = reversestr.join("");
+
+
+    if (string1 == joinstr)
+
+        {
+            document.getElementById ("palindromestring"). innerHTML = "palindrome";
+        }
+
+            else
+            {
+                document.getElementById("palindromestring"). innerHTML = "not a palindrome";
+
+
+            }
 
 }
-
-if (empnum <100 ) for empNum >=1000)
-
- {
-    document.getElementById ("inputStatus") .innerHTML = "number is not 3 digits";
- }
